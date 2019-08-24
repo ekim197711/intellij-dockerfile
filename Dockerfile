@@ -15,4 +15,4 @@ echo "A new joke ${MYVARIABLE}" > joke5.txt
 EXPOSE 8080/tcp
 EXPOSE 8090/tcp
 CMD ["My first argument", "Standard argument no 2"]
-ENTRYPOINT ["java", "-jar", "myspringbootapp.jar"]
+ENTRYPOINT ["echo", "hellow our container is running"]
